@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class TraderSpider(scrapy.Spider):
+    name = 'trader'
+    allowed_domains = ['checkatrade.com']
+    start_urls = ['http://checkatrade.com/Directory/A']
+
+    def parse(self, response):
+        data=response.xpath('//*[@id="ctl00_ctl00_ctlMain"]/div[2]/div/table/tbody/tr')
+
+        for each in data[1:]:
+            yield {
+                'company_name:':each.xpath('td[1]/a/text()').extract_first().strip(),
+                'based_in:':each.xpath('td[2]/text()').extract_first().strip(),
+                'member for:':each.xpath('td[3]/text()').extract_first().strip(),
+                'reports:':each.xpath('td[4]/text()').extract_first().strip(),
+                'rating:':each.xpath('td[5]/text()').extract_first().strip()
+                }
+        
