@@ -1,7 +1,7 @@
 def tables(n):
-    print n," Tables upto 10 :\n"
+    print n,"Tables upto 10 :\n"
     i=1;
-    while i<=10:
+    while i<=12:
         print i,"*",n,"=",i*n
         i=i+1
 

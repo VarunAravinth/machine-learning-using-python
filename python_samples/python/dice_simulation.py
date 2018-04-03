@@ -22,5 +22,6 @@ while(a):
         a=True
     elif(loop=='N' or loop=='n'):
         a=False
-        
+    else:
+        print('choose either y or n')
 print("Thank you!")        

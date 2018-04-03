@@ -1,6 +1,8 @@
 def printer():
+    print(sample)
+    
     sample = 2
-    print(sample)     
+         
     print('inside the fun')
     
     print(sample)
