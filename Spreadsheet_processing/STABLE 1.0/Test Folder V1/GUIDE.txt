@@ -1,0 +1,17 @@
+Metrics Report v1.0
+
+1.Convert the csv file extracted from Myservice to .xlsx (Use Excel 2013 not Excel 2016 in the VDI itself)
+	Steps to convert:
+	1.open a new excel workbook
+	2.Click Data-> Import data from Text->Follow the import wizard->check the (comma instead of tab)
+	3.Save the excel sheet, this will be first input file 
+	4.Note the data should be imported in Sheet1 of the workbook
+
+2.Run the tool
+3.Select the export file as the newly created excel sheet
+4.Select the template as 'template.xlsx' available in this folder
+5.Hit the process button and wait for 'Processed successfully!..' message in the command prompt
+6.Please find the output named as 'Pleasebegood.xlsx'
+7.copy the generated content from the 'pleasebegood.xlsx' file to the old template file named 'Metrics Template.xls'
+8.Click the validate button and correct the minor changes in that
+9.Validate until no error pops up! 						

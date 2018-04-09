@@ -10,7 +10,7 @@ while(a):
     for i in range(1,5):
         
         time.sleep(1)
-        print('.',end='')
+        print('.', end='')
         if(i==4):
             print("Stopped")
             time.sleep(1)

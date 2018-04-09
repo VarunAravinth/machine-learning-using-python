@@ -1,0 +1,7 @@
+1.convert your csv file to .xlsx file in the VDI itself.
+2.Name it as export.xlsx file
+3.Have the template.xlsx file in the same directory
+4.You will get the output as 'pleasebegood.xlsx'
+5.Copy the newly generated contents from that to old 'template.xls' file
+6.Click Validate - Correct the bit of errors and save
+7. That's it
