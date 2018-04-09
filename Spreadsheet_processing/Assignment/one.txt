@@ -1,0 +1,10 @@
+1:c:\Program Files\App\Data\Filename.txt
+2:Filename
+3:.txt
+
+==============================
+
+create a button
+click the button -> value should be incremented by 1
+
+==================================
