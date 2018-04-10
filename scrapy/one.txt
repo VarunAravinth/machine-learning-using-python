@@ -1,0 +1,14 @@
+cmd -> scrapy shell 'https://sa.com'
+
+-> view(response)
+(tagname.css classname::text)
+-> reponse.css('span.text::text')[0].extract()
+
+
+================================================
+new cmd window
+
+scrapy genspider quotes toscrape.com
+
+scrapy runspider quotes.py
+
