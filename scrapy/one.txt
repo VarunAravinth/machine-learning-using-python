@@ -12,3 +12,12 @@ scrapy genspider quotes toscrape.com
 
 scrapy runspider quotes.py
 
+===========
+response.xpath('/text()').extract_first()
+
+==============
+
+fwjhfwrefwr
+
+
+
